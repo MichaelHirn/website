@@ -40,22 +40,17 @@ html, body {
   body {
   font-size: 100%; }
 
-  body {
-    color: #222222;
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    position: relative;
+body {
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
   cursor: default;
-  background: url("../images/michael-hirn-background-city.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+  background: whitesmoke;
 }
 
 .website {
@@ -64,6 +59,7 @@ html, body {
   height: 100%;
 }
 .side {
+  border-right: 1px solid gainsboro;
   padding-top: 5%;
   min-height: 100%;
   background: rgba(255, 255, 255, .75);
@@ -109,6 +105,10 @@ html, body {
 .side a.linky:hover {
   color: rgb(10, 44, 95);
   text-decoration: underline;
+}
+
+.articles {
+  padding: 20px 5% !important;
 }
 
 a:hover {
