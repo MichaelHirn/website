@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="stylesheets/main.css">
 
 <script src="javascripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -45,7 +46,14 @@
         <h3>Articles</h3>
       </div>
     </div>
-    <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@mjhirn/reisen-ver%C3%A4ndert-indien-7c1f2e42d74f">Reisen verändert — Indien</a>
+    <div class="js-masonry" data-masonry-options='{ "columnWidth": 400, "itemSelector": ".m-item" }'>
+      <div class="m-item">
+        <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@mjhirn/the-employee-the-freelancer-and-the-entrepreneur-510ee2c710a3">The Employee, the Freelancer, and the Entrepreneur</a>
+      </div>
+      <div class="m-item">
+        <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@mjhirn/reisen-ver%C3%A4ndert-indien-7c1f2e42d74f">Reisen verändert — Indien</a>
+      </div>
+    </div>
   </div>
 </div>
 <script src="javascripts/main.js"></script>
